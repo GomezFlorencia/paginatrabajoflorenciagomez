@@ -1,0 +1,89 @@
+body {
+    background: rgb(250, 126, 235);
+    background: linear-gradient(0deg, rgba(250, 126, 235, 1) 0%, rgba(244, 235, 239, 1) 100%);
+}
+
+
+
+header {
+    background: rgba(247, 81, 238, 0.9);
+    width: 100%;
+    position: fixed;
+
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+
+
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+h1 {
+    padding-top: 90px;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 4vw;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+p,
+ul {
+    font-family: 'Roboto', sans-serif;
+}
+
+#subtitulo {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Rancho', cursive;
+    font-size: 30px;
+}
+
+#alternativas {
+    display: flex;
+    padding: 20px;
+}
+
+.introduccion {
+    margin-top: 100px;
+    display: flex;
+    padding: 20px;
+    background-color: rgba(247, 140, 241, 0.9);
+}
+
+.contenido,
+.contenidoYoga,
+.medicinas {
+    padding-left: 25px;
+
+}
+
+#yoga {
+
+    display: flex;
+    padding: 20px;
+
+}

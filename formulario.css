@@ -1,0 +1,62 @@
+header {
+    background: rgba(247, 81, 238, 0.9);
+    width: 100%;
+    position: fixed;
+}
+
+
+nav ul li {
+
+    font-family: Arial, sans-serif;
+
+
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 2vw;
+}
+
+#titulo {
+    margin-top: 190px;
+    text-align: center;
+    justify-content: center;
+}
+
+form {
+    padding: 30px;
+    background-color: rgba(241, 108, 235, 0.9);
+
+}
+
+form {
+
+    text-align: center;
+
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+p,
+ul,
+ol {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    text-align: center;
+}

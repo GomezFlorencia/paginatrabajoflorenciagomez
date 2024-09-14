@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario De Contacto-Tu Rincón De Paz</title>
+    <link rel="shortcut icon" href="Multimedia/icons8-leer-en-la-cama-16.png" type="image/x-icon">
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Rancho&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página de Inicio</a></li>
+                <li><a href="desarrollo.html"> Reiki</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <section id="titulo">
+        <h1>FORMULARIO DE CONTACTO</h1>
+    </section>
+    <form>
+        <label for="fname" style="font-family: 'Roboto', sans-serif;"><b>Nombre y Apellido</b></label><br>
+        <input type="text" id="fname" name="fname" placeholder="Nombre y apellido"><br> <br>
+        <label for="femail" style="font-family: 'Roboto', sans-serif;"><b>Email</b></label><br>
+        <input type="email" id="femail" name="fmail" placeholder="Ingrese su email">
+        <p><b>Ingrese la terapia holística que quiera consultar</b></p>
+        <input type="radio" id="rFlores" name="terapia_holistica" value="">
+        <label for="rFlores">Flores De Bach</label>
+        <input type="radio" id="rreiki" name="terapia_holistica" value="">
+        <label for="rreiki">Reiki</label><br>
+        <input type="radio" id="rAcupuntura" name="terapia_holistica" value="">
+        <label for="rAcupuntura">Acupuntura</label>
+        <input type="radio" id="rYoga" name="terapia_holistica" value="">
+        <label for="rYoga">Yoga</label>
+        <input type="radio" id="musicoterapia" name="terapia_holistica" value="">
+        <label for="musicoterapia">Musicoterapia</label>
+        <p><b>Usted está registrado en nuestra página?</b></p>
+        <input type="checkbox" id="checkboxsi" name="si" value="">
+        <label for="checkboxsi"> Si</label><br>
+        <input type="checkbox" id="checkboxno" name="no" value="">
+        <label for="checkboxno"> No</label><br>
+        <br>
+        <label for="semana" style="font-family: 'Roboto', sans-serif;"><b>Preferencia de día:</b></label>
+        <input list="semana" id="dias-semana" name="dias-semana" placeholder="Elige el dia de la semana" />
+
+        <datalist id="dias-semana">
+            <option value="Lunes"></option>
+            <option value="Martes"></option>
+            <option value="Miercoles"></option>
+            <option value="Jueves"></option>
+            <option value="Viernes"></option>
+        </datalist>
+        <br><br>
+        <label for="texto_area" style="font-family: 'Roboto', sans-serif;"><b>Dejanos tu comentario</b></label>
+        <br> 
+
+        <textarea id="texto_area" name="texto" placeholder="Escribi acá tu comentario...">
+        </textarea>
+        <br>
+        <input type="submit" value="Enviar">
+
+    </form>
+    <hr>
+    <footer>
+        <p>Gracias por visitar nuestra página web!</p>
+        <br> <i>Florencia Ariana Gomez - Taller de marcado web - comisión 5</i>
+    </footer>
+</body>
+
+</html>

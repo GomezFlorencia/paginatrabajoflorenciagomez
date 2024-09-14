@@ -1,0 +1,86 @@
+body {
+    background: rgb(46, 92, 38);
+    background: linear-gradient(0deg, rgba(46, 92, 38, 1) 0%, rgba(236, 244, 235, 0.9752275910364145) 100%);
+}
+
+header {
+    background: rgba(20, 68, 18, 0.9);
+    width: 100%;
+    position: fixed;
+}
+
+
+nav ul li {
+
+    font-family: Arial, sans-serif;
+
+
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#titulo {
+    margin-top: 190px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#reikiIntroduccion {
+    background-color: rgba(25, 66, 23, 0.9);
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 4vw;
+}
+
+h2 {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 45px;
+}
+
+h3 {
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+}
+
+#reikiIntroduccion {
+    padding: 50px;
+}
+
+.videoReiki {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.tablas {
+
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#promociones {
+    padding: 50px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+p,
+ul,
+ol {
+    font-family: 'Roboto', sans-serif;
+}
